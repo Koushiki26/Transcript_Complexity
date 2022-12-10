@@ -33,5 +33,37 @@ Genome-wide analysis of lncRNAs and mRNAs Transcript Complexity in human and mou
 27. mrna_tsl5_h.py :
 28. mrna_tsl5_m.py :
 29. mrna_tsl6_h.py :
+
+--------------------------------
+# R_codes
+--------------------------------
+1. ASE_h.R :
+2. ASE_m.R :
+3. ASE_plots.R :
+4. conservation_score_plot_h.R :
+5. conservation_score_plot_m.R :
+6. correlation_analysis_h.R :
+7. correlation_analysis_m.R :
+8. eclip.R :
+9. length_h.R :
+10. length_m.R :
+11. length_plot_h.R :
+12. length_plot_m.R :
+13. maxentscan_h.R :
+14. mean_TC.R :
+15. mean_TC_tsl_h.R :
+16. mean_TC_tsl_m.R :
+17. splicesite_assign_h.R :
+18. splicesite_assign_m.R :
+19. splicesite_count_h.R :
+20. splicesite_count_m.R :
+21. splicesite_plot_h.R :
+22. splicesite_plot_m.R :
+23. splicesite_strength_plot_h.R :
+
+--------------------------------
+# data
+--------------------------------
+1.
 30. mrna_tsl6_m.py :
 31. splicesite.py :
