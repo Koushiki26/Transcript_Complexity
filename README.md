@@ -4,7 +4,7 @@ Genome-wide analysis of lncRNAs and mRNAs Transcript Complexity in human and mou
 --------------------------------
 # python_codes
 --------------------------------
-1. coordinate.py : Takes FASTA file of intron sequences as input and extract the IDs (containing coordinates) of each sequence.
+1. coordinate.py : Take FASTA file of intron sequences as input and extract the IDs (containing coordinates) of each sequence.
 2. extract_lncrna_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene.
 3. extract_lncrna_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene.
 4. extract_mrna_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene.
@@ -39,29 +39,29 @@ Genome-wide analysis of lncRNAs and mRNAs Transcript Complexity in human and mou
 --------------------------------
 # R_codes
 --------------------------------
-1. ASE_h.R :
-2. ASE_m.R :
-3. ASE_plots.R :
-4. conservation_score_plot_h.R :
-5. conservation_score_plot_m.R :
-6. correlation_analysis_h.R :
-7. correlation_analysis_m.R :
-8. eclip.R :
-9. length_h.R :
-10. length_m.R :
-11. length_plot_h.R :
-12. length_plot_m.R :
-13. maxentscan_h.R :
-14. mean_TC.R :
-15. mean_TC_tsl_h.R :
-16. mean_TC_tsl_m.R :
-17. splicesite_assign_h.R :
-18. splicesite_assign_m.R :
-19. splicesite_count_h.R :
-20. splicesite_count_m.R :
-21. splicesite_plot_h.R :
-22. splicesite_plot_m.R :
-23. splicesite_strength_plot_h.R :
+1. ASE_h.R : Take ioe files (human) as input and calculate the number of transcripts involved in different alternative splicing event for each lncRNA and mRNA gene.
+2. ASE_m.R : Take ioe files (mouse) as input and calculate the number of transcripts involved in different alternative splicing event for each lncRNA and mRNA gene.
+3. ASE_plots.R : Take the alternative splicing event data for lncRNA and mRNA genes as input and plot the fraction of transcripts involved in different alternative splicing event (human and mouse).
+4. conservation_score_plot_h.R : Take lncRNA (low and high TC) and mRNA (low and high TC) conservation score data as input and plot the graph for 5' and 3' splice site conservation (human).
+5. conservation_score_plot_m.R : Take lncRNA (low and high TC) and mRNA (low and high TC) conservation score data as input and plot the graph for 5' and 3' splice site conservation (mouse).
+6. correlation_analysis_h.R : Take the number of transcript and exon data of lncRNA and mRNA genes as the input and calculate and plot correlation between them (human).
+7. correlation_analysis_m.R : Take the number of transcript and exon data of lncRNA and mRNA genes as the input and calculate and plot correlation between them (mouse).
+8. eclip.R : Take the number of transcript and exon data of lncRNA and mRNA genes (NMD analysis) as the input and calculate and plot correlation between them (human).
+9. length_h.R : Assign the intron and exon length against lncRNA and mRNA gene ID (human).
+10. length_m.R : Assign the intron and exon length against lncRNA and mRNA gene ID (mouse).
+11. length_plot_h.R : Take exon and inron length data of lncRNA and mRNA genes as input and plot length data with respect to transcript complexity (human).
+12. length_plot_m.R : Take exon and inron length data of lncRNA and mRNA genes as input and plot length data with respect to transcript complexity (mouse).
+13. maxentscan_h.R : Create FASTA files of lncRNA and mRNA genes with high and low Transcript Complexity for input in MaxEntScan tool (human).
+14. mean_TC.R : Take the number of transcript and exon data of lncRNA and mRNA genes as the input and calculate and plot Transcript Complexity (human and mouse).
+15. mean_TC_tsl_h.R : Take the number of transcript and exon data of lncRNA and mRNA genes for different Transcript Support Level as the input and calculate and plot Transcript Complexity (human).
+16. mean_TC_tsl_m.R : Take the number of transcript and exon data of lncRNA and mRNA genes for different Transcript Support Level as the input and calculate and plot Transcript Complexity (mouse).
+17. splicesite_assign_h.R : Take the 5' and 3' splicesite dinucleotide data for each intron as input and assign the lncRNA and mRNA gene ID to each splicesite (human).
+18. splicesite_assign_m.R : Take the 5' and 3' splicesite dinucleotide data for each intron as input and assign the lncRNA and mRNA gene ID to each splicesite (mouse).
+19. splicesite_count_h.R : Count number of introns for each type of splicesite dinucleotide and then sort them based on high or low Transcript Complexity (human).
+20. splicesite_count_m.R : Count number of introns for each type of splicesite dinucleotide and then sort them based on high or low Transcript Complexity (mouse).
+21. splicesite_plot_h.R : Take the splicesite count data as input and plot the fraction of intron for each 5' and 3' splicesite dinucleotide (human).
+22. splicesite_plot_m.R : Take the splicesite count data as input and plot the fraction of intron for each 5' and 3' splicesite dinucleotide (mouse).
+23. splicesite_strength_plot_h.R : Take the splicesite strength data as input and plot it (human).
 
 --------------------------------
 # data
