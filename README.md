@@ -4,37 +4,37 @@ Genome-wide analysis of lncRNAs and mRNAs Transcript Complexity in human and mou
 --------------------------------
 # python_codes
 --------------------------------
-1. coordinate.py : 
-2. extract_lncrna_h.py :
-3. extract_lncrna_m.py :
-4. extract_mrna_h.py :
-5. extract_mrna_m.py :
-6. length.py :
-7. lncrna_tsl1_h.py :
-8. lncrna_tsl1_m.py :
-9. lncrna_tsl2_h.py :
-10. lncrna_tsl2_m.py :
-11. lncrna_tsl3_h.py :
-12. lncrna_tsl3_m.py :
-13. lncrna_tsl4_h.py :
-14. lncrna_tsl4_m.py :
-15. lncrna_tsl5_h.py :
-16. lncrna_tsl5_m.py :
-17. lncrna_tsl6_h.py :
-18. lncrna_tsl6_m.py :
-19. mrna_tsl1_h.py :
-20. mrna_tsl1_m.py :
-21. mrna_tsl2_h.py :
-22. mrna_tsl2_m.py :
-23. mrna_tsl3_h.py :
-24. mrna_tsl3_m.py :
-25. mrna_tsl4_h.py :
-26. mrna_tsl4_m.py :
-27. mrna_tsl5_h.py :
-28. mrna_tsl5_m.py :
-29. mrna_tsl6_h.py :
-30. mrna_tsl6_m.py :
-31. splicesite.py :
+1. coordinate.py : Takes FASTA file of intron sequences as input and extract the IDs (containing coordinates) of each sequence.
+2. extract_lncrna_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene.
+3. extract_lncrna_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene.
+4. extract_mrna_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene.
+5. extract_mrna_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene.
+6. length.py : Take fasta file of exon and intron sequences as input and calculate the length for each sequence.
+7. lncrna_tsl1_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene with Transcript support level 1.
+8. lncrna_tsl1_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene with Transcript support level 1.
+9. lncrna_tsl2_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene with Transcript support level 1 or 2.
+10. lncrna_tsl2_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene with Transcript support level 1 or 2.
+11. lncrna_tsl3_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene with Transcript support level 1, 2 or 3.
+12. lncrna_tsl3_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene with Transcript support level 1, 2 or 3.
+13. lncrna_tsl4_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene with Transcript support level 1, 2, 3 or 4.
+14. lncrna_tsl4_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene with Transcript support level 1, 2, 3 or 4.
+15. lncrna_tsl5_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene with Transcript support level 1, 2, 3, 4 or 5.
+16. lncrna_tsl5_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene with Transcript support level 1, 2, 3, 4 or 5.
+17. lncrna_tsl6_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene with Transcript support level 1, 2, 3, 4, 5 or NA.
+18. lncrna_tsl6_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each lncRNA gene with Transcript support level 1, 2, 3, 4, 5 or NA.
+19. mrna_tsl1_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene with Transcript support level 1.
+20. mrna_tsl1_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene with Transcript support level 1.
+21. mrna_tsl2_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene with Transcript support level 1 or 2.
+22. mrna_tsl2_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene with Transcript support level 1 or 2.
+23. mrna_tsl3_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene with Transcript support level 1, 2 or 3.
+24. mrna_tsl3_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene with Transcript support level 1, 2 or 3.
+25. mrna_tsl4_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene with Transcript support level 1, 2, 3 or 4.
+26. mrna_tsl4_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene with Transcript support level 1, 2, 3 or 4.
+27. mrna_tsl5_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene with Transcript support level 1, 2, 3, 4 or 5.
+28. mrna_tsl5_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene with Transcript support level 1, 2, 3, 4 or 5.
+29. mrna_tsl6_h.py : Take gtf file (human) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene with Transcript support level 1, 2, 3, 4, 5 or NA.
+30. mrna_tsl6_m.py : Take gtf file (mouse) as input and calculate the gene length, number of transcript and number of exon for each mRNA gene with Transcript support level 1, 2, 3, 4, 5 or NA.
+31. splicesite.py : Takes FASTA file of intron sequences as input and extract the 5' and 3' splice sites of each sequence.
 
 --------------------------------
 # R_codes
@@ -150,5 +150,18 @@ Genome-wide analysis of lncRNAs and mRNAs Transcript Complexity in human and mou
 82. sscount_low_TC_m.csv :
 
 --------------------------------
-# data
+# data_human_conservation
 --------------------------------
+
+--------------------------------
+# data_mouse_conservation
+--------------------------------
+
+--------------------------------
+# supplementary_files
+--------------------------------
+1. SUPPLEMENTARY MATERIAL.pdf :
+2. supplemental_file1.xlsx :
+3. supplemental_file2.xlsx :
+4. supplemental_file3.xlsx :
+5. supplemental_file4.xlsx :
