@@ -163,6 +163,10 @@ Genome-wide analysis of lncRNAs and mRNAs Transcript Complexity in human and mou
 80. sscount_high_TC_m.csv : count of each 5' and 3' splicesite dinucleotide for lncRNA and mRNA genes with high Transcript complexity of mouse (column names-splicesite, 5' lncRNA count, 5' mRNA count,  3' lncRNA count, 3' mRNA count)
 81. sscount_low_TC_h.csv : count of each 5' and 3' splicesite dinucleotide for lncRNA and mRNA genes with low Transcript complexity of human (column names-splicesite, 5' lncRNA count, 5' mRNA count,  3' lncRNA count, 3' mRNA count)
 82. sscount_low_TC_m.csv : count of each 5' and 3' splicesite dinucleotide for lncRNA and mRNA genes with low Transcript complexity of mouse (column names-splicesite, 5' lncRNA count, 5' mRNA count,  3' lncRNA count, 3' mRNA count)
+83. A549_output.tsv : Splicing efficiency of A549 cell line (human)
+84. K562_output.tsv : Splicing efficiency of K562 cell line (human)
+85. G1E_output1.tsv : Splicing efficiency of G1E cell line (mouse)
+86. MEL_output1.tsv : Splicing efficiency of MEL cell line (mouse)
 
 --------------------------------
 # data_human_conservation
