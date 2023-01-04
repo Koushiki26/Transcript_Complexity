@@ -73,6 +73,10 @@ Genome-wide analysis of lncRNAs and mRNAs Transcript Complexity in human and mou
 21. splicesite_plot_h.R : Take the splicesite count data as input and plot the fraction of intron for each 5' and 3' splicesite dinucleotide (human).
 22. splicesite_plot_m.R : Take the splicesite count data as input and plot the fraction of intron for each 5' and 3' splicesite dinucleotide (mouse).
 23. splicesite_strength_plot_h.R : Take the splicesite strength data as input and plot it (human).
+24. SplicingEfficiency_h.R : Take the splicing efficiency data of cell line as input and assign lncRNA and mRNA gene ID to each intron (human).
+25. SplicingEfficiency_m.R : Take the splicing efficiency data of cell line as input and assign lncRNA and mRNA gene ID to each intron (mouse).
+26. SplicingEfficiency_plot_h.R : Take the splicing efficiency data of lncRNA and mRNA for cell lines as input and divide based on Transcript Complexity and plot (human).
+27. SplicingEfficiency_plot_m.R : Take the splicing efficiency data of lncRNA and mRNA for cell lines as input and divide based on Transcript Complexity and plot (mouse).
 
 --------------------------------
 # data
